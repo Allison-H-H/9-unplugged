@@ -392,7 +392,7 @@ aside .form h3 {
 
 
 @media screen and (min-width: 768px) {
-    /* Tablet styles */
+    /* TABLET STYLES HERE */
 
     /* General styles */
 
@@ -534,7 +534,59 @@ aside .form h3 {
 }
 
 @media screen and (min-width: 1200px) {
-    /*Desktop styles here*/
+    /* DESKTOP STYLES HERE */
+
+    /* General styles */
+    .conent-wrapper {
+        max-width: 960px;
+    }
+
+    /* Header */
+
+    /* Hero Area */
+    .hero-area h1 {
+        width: 66%;
+    }
+
+    /* Aside */
+    aside .content-wrapper {
+        justify-content: space-around;
+    }
+
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+        width: 33%;
+    }
+
+    /* Features */
+    features h2 {
+        width: 91%;
+    }
+
+    .features article {
+        flex-basis: 33%;
+    }
+
+    /* Reviews */
+    .reviews article div {
+        width: 42%;
+    }
+
+    /* ============================================================================      FAQ page
+      ============================================================================
+    */
+
+    .faq h2 {
+        width: 100%;
+    }
+
+    /* ============================================================================        About page
+      ============================================================================
+    */
+    .mission h2,
+    .contact-section .content-wrapper h2 {
+        width: 95%;
+    }
 }
 
 @media print,
