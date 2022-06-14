@@ -239,12 +239,14 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+    background: url('../img/hero-area-background.jpg') center no-repeat;
+    background-size: cover;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
-hero-area h1 {
+.hero-area h1 {
     font-size: 2.25em;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -290,6 +292,8 @@ input[type=button] {
 /* Features */
 
 .features {
+    background: url('../img/features-background.jpg') center no-repeat;
+    background-size: cover;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
