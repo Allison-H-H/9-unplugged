@@ -365,8 +365,41 @@ input[type=button] {
 }
 
 
+/* =========================================================================
+    FAQ Page
+  ======================================================================== */
 
-/* =========================================================================         About Page
+.faq {
+    align-items: center;
+    background-color: #527158;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.faq .content-wrapper {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.faq h2 {
+    line-height: 1;
+    margin-bottom: 50px;
+}
+
+.faq-content {
+    margin-bottom: 50px;
+}
+
+.faq-content h4 {
+    line-height: 1.333;
+}
+
+/* =========================================================================
+    About Page
   ======================================================================== */
 
 main {
@@ -408,39 +441,6 @@ main {
 .contact-content p {
     margin: 0;
 }
-
-/* =========================================================================         FAQ Page
-  ======================================================================== */
-
-.faq {
-    align-items: center;
-    background-color: #527158;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
-.faq .content-wrapper {
-    align-items: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.faq h2 {
-    line-height: 1;
-    margin-bottom: 50px;
-}
-
-.faq-content {
-    margin-bottom: 50px;
-}
-
-.faq-content h4 {
-    line-height: 1.333;
-}
-
 
 /* ==========================================================================
    Helper classes
@@ -670,7 +670,8 @@ main {
         width: 100%;
     }
 
-    /* ============================================================================      FAQ page
+    /* ============================================================================
+        FAQ page
       ============================================================================
     */
 
@@ -686,7 +687,8 @@ main {
         width: 100%;
     }
 
-    /* ============================================================================        About page
+    /* ============================================================================
+        About page
       ============================================================================
     */
 
@@ -699,6 +701,10 @@ main {
 
     .mission-content p {
         width: 45%;
+    }
+
+    .map figure {
+        padding-bottom: 56.25%;
     }
 
     .contact-section .content-wrapper h2 {
