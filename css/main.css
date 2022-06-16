@@ -244,8 +244,17 @@ footer .social-icons {
 
 footer .social-icons p {
     align-items: center;
+    background-color: #527178;
+    border-radius: 50%;
+    color: #e2e3ed;
     display: flex;
+    height: 40px;
     justify-content: center;
+    width: 40px;
+}
+
+footer .social-itcons p i {
+    font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -616,6 +625,10 @@ main {
         width: 62%;
     }
 
+    .features i {
+        margin-bottom: 30px;
+    }
+
     /* Reviews */
 
     .reviews h2 {
@@ -664,6 +677,11 @@ main {
         line-height: 1.285;
     }
 
+    footer .social-icons {
+        width: 12.5em;
+        justify-content: space-between;
+    }
+
     footer .copyright {
         width: 100%;
     }
@@ -678,11 +696,17 @@ main {
     }
 
     .faq-content {
-        flex-basis: 40%;
+        flex-basis: 45%;
     }
 
-    .faw h2 {
+    .faq h2 {
         width: 100%;
+    }
+
+    .faq h4,
+    .faq p {
+        font-size: .875em;
+        line-height: 1.125;
     }
 
     /* ============================================================================
@@ -694,7 +718,7 @@ main {
         align-items: center;
         display: flex;
         justify-content: space-between;
-        padding: 20px;
+        padding-top: 20px;
     }
 
     .mission-content p {
@@ -706,7 +730,7 @@ main {
     }
 
     .contact-section .content-wrapper h2 {
-        width: 75%;
+        width: 80%;
     }
 
     .contact-content {
@@ -714,8 +738,6 @@ main {
         display: flex;
         justify-content: space-between;
     }
-
-
 }
 
 @media screen and (min-width: 1200px) {
