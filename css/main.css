@@ -405,16 +405,17 @@ input[type=button] {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-top: 50px;
+    margin-bottom: 0;
+    margin-top: 30px;
 }
 
 .faq h2 {
     line-height: 1;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .faq-content {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .faq-content h4 {
@@ -714,6 +715,8 @@ main {
 
     .faq .content-wrapper {
         justify-content: space-between;
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
 
     .faq-content {
